@@ -1,0 +1,12 @@
+{
+  "capturedAt": "2026-10-19T15:26:47.114Z",
+  "routeCount": 17,
+  "assetCount": 77,
+  "themeScriptCount": 38,
+  "failures": [
+    {
+      "url": "https://www.stickitup.xyz/cdn/shop/t/357/assets/collection-infinite-more.js?v=153291500441263336041792137682",
+      "error": "Command failed: curl.exe --noproxy * -L --fail --silent --show-error --max-time 90 --retry 2 https://www.stickitup.xyz/cdn/shop/t/357/assets/collection-infinite-more.js?v=153291500441263336041792137682 -o reference/theme/0a2bcafba032-collec"
+    }
+  ]
+}

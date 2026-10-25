@@ -1,0 +1,1 @@
+import{readFileSync}from'node:fs';import{load}from'cheerio';const $=load(readFileSync('homepage.html','utf8'));$('script').each((i,e)=>{const js=$(e).text();if(js.includes('siuVibeGrid')||js.includes('siu-faq'))console.log(js.slice(0,13000));});

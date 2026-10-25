@@ -1,0 +1,2623 @@
+{
+  "source": "https://www.stickitup.xyz",
+  "startedAt": "2026-10-19T15:24:45.994Z",
+  "capturedAt": "2026-10-19T15:39:52.256Z",
+  "currency": "INR",
+  "productCount": 4475,
+  "rootProductCount": 4475,
+  "collectionCount": 157,
+  "variantCount": 5191,
+  "imageCount": 26865,
+  "soldOutProductCount": 563,
+  "additionalProductsFromCollections": 0,
+  "observations": [
+    {
+      "endpoint": "/collections.json",
+      "key": "collections",
+      "count": 157,
+      "pageCounts": [
+        157,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/products.json",
+      "key": "products",
+      "count": 4475,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        225,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/buy-aesthetic-laptop-skins-india/products.json",
+      "key": "products",
+      "count": 105,
+      "pageCounts": [
+        105,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/aesthetic/products.json",
+      "key": "products",
+      "count": 978,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        228,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/alcoholic/products.json",
+      "key": "products",
+      "count": 54,
+      "pageCounts": [
+        54,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/adventure-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/aesthetic-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/alcohol-stoners-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/buy-vinyl-stickers-online-india/products.json",
+      "key": "products",
+      "count": 3811,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        61,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/animals/products.json",
+      "key": "products",
+      "count": 33,
+      "pageCounts": [
+        33,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/loot-machao-sale/products.json",
+      "key": "products",
+      "count": 3805,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        55,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/all/products.json",
+      "key": "products",
+      "count": 4475,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        225,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/anime/products.json",
+      "key": "products",
+      "count": 437,
+      "pageCounts": [
+        250,
+        187,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/anime-collection/products.json",
+      "key": "products",
+      "count": 438,
+      "pageCounts": [
+        250,
+        188,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/anime01/products.json",
+      "key": "products",
+      "count": 782,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        32,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/apparels/products.json",
+      "key": "products",
+      "count": 13,
+      "pageCounts": [
+        13,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/automobile-vinyl-stickers-india/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/automotive/products.json",
+      "key": "products",
+      "count": 113,
+      "pageCounts": [
+        113,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/animals-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/anime-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/automotive01/products.json",
+      "key": "products",
+      "count": 733,
+      "pageCounts": [
+        250,
+        250,
+        233,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/b1g1-diwali-collection/products.json",
+      "key": "products",
+      "count": 554,
+      "pageCounts": [
+        250,
+        250,
+        54,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/automotive-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/best-seller-vinyl-stickers-india/products.json",
+      "key": "products",
+      "count": 3271,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        21,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/avada-best-sellers/products.json",
+      "key": "products",
+      "count": 3904,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        154,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/buy-best-selling-vinyl-stickers-collection-india/products.json",
+      "key": "products",
+      "count": 4469,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        219,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bike-car-collection/products.json",
+      "key": "products",
+      "count": 182,
+      "pageCounts": [
+        182,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bike-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bottoms/products.json",
+      "key": "products",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/boy-stickers/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/best-selling-products/products.json",
+      "key": "products",
+      "count": 4475,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        225,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bumper-clearance/products.json",
+      "key": "products",
+      "count": 88,
+      "pageCounts": [
+        88,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bumper-sticker/products.json",
+      "key": "products",
+      "count": 323,
+      "pageCounts": [
+        250,
+        73,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bottle-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/buy-1-get-1-free/products.json",
+      "key": "products",
+      "count": 126,
+      "pageCounts": [
+        126,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bundle-500/products.json",
+      "key": "products",
+      "count": 497,
+      "pageCounts": [
+        250,
+        247,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/byoc/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/buy-3-999/products.json",
+      "key": "products",
+      "count": 115,
+      "pageCounts": [
+        115,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/boy-stickers-1/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cart-exclusive-deals/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cart-gap-fillers/products.json",
+      "key": "products",
+      "count": 9,
+      "pageCounts": [
+        9,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/car-bike-stickers/products.json",
+      "key": "products",
+      "count": 325,
+      "pageCounts": [
+        250,
+        75,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/car-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/clearance/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/clearance-sale/products.json",
+      "key": "products",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cartoon-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/clothing/products.json",
+      "key": "products",
+      "count": 13,
+      "pageCounts": [
+        13,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/combo-packs/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/city-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/credit-card-skins/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/custom-products/products.json",
+      "key": "products",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/clearance-zone/products.json",
+      "key": "products",
+      "count": 3606,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        106,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cute-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/designers/products.json",
+      "key": "products",
+      "count": 14,
+      "pageCounts": [
+        14,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cute-stickers-1/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/debit-card-skins/products.json",
+      "key": "products",
+      "count": 3077,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        77,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/developers/products.json",
+      "key": "products",
+      "count": 96,
+      "pageCounts": [
+        96,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/developers01/products.json",
+      "key": "products",
+      "count": 733,
+      "pageCounts": [
+        250,
+        250,
+        233,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/diamond-dust/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/developers-hackers-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/designers-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/entrepreneur-motivational/products.json",
+      "key": "products",
+      "count": 166,
+      "pageCounts": [
+        166,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/exclusive-drop-1/products.json",
+      "key": "products",
+      "count": 12,
+      "pageCounts": [
+        12,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/entrepreneur-motivational-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/fashion-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/easygift-all-products/products.json",
+      "key": "products",
+      "count": 4469,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        219,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/food/products.json",
+      "key": "products",
+      "count": 70,
+      "pageCounts": [
+        70,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/gamers/products.json",
+      "key": "products",
+      "count": 40,
+      "pageCounts": [
+        40,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/foodie-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/gamers-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/glitter-stickers/products.json",
+      "key": "products",
+      "count": 203,
+      "pageCounts": [
+        203,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/glitter-stickers-1/products.json",
+      "key": "products",
+      "count": 203,
+      "pageCounts": [
+        203,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/flexify/products.json",
+      "key": "products",
+      "count": 4457,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        207,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/google-pixel/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/hackers/products.json",
+      "key": "products",
+      "count": 96,
+      "pageCounts": [
+        96,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/girl-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/guitar-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/happy-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/holographic-stickers/products.json",
+      "key": "products",
+      "count": 427,
+      "pageCounts": [
+        250,
+        177,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/helmet-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/hobby-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/infinity-stickers/products.json",
+      "key": "products",
+      "count": 19,
+      "pageCounts": [
+        19,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/iphone-phone-skins/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/in-stock-catalogue/products.json",
+      "key": "products",
+      "count": 3909,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        159,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/indian-sticker/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/journal-diary-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/buy-vinyl-laptop-skins-online-india/products.json",
+      "key": "products",
+      "count": 105,
+      "pageCounts": [
+        105,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/just-stickers/products.json",
+      "key": "products",
+      "count": 3810,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        60,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/lifestyle-stickers/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/kids-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/laptop-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/love/products.json",
+      "key": "products",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/memes/products.json",
+      "key": "products",
+      "count": 209,
+      "pageCounts": [
+        209,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/logo-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/love-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/memes-funny-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/buy-vinyl-sticker-sheets-india/products.json",
+      "key": "products",
+      "count": 89,
+      "pageCounts": [
+        89,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mobile-phone/products.json",
+      "key": "products",
+      "count": 83,
+      "pageCounts": [
+        83,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/motivational-stickers/products.json",
+      "key": "products",
+      "count": 92,
+      "pageCounts": [
+        92,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/music/products.json",
+      "key": "products",
+      "count": 145,
+      "pageCounts": [
+        145,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mental-health-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mystery-box/products.json",
+      "key": "products",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/naruto/products.json",
+      "key": "products",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mobile-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/new-phone-skins/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/music-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/new-arrivals/products.json",
+      "key": "products",
+      "count": 4469,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        219,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/buy-new-collection-stickers-india/products.json",
+      "key": "products",
+      "count": 4469,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        219,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/nothing/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/newest-products/products.json",
+      "key": "products",
+      "count": 4475,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        225,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/one-plus/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/only-bumper-stickers/products.json",
+      "key": "products",
+      "count": 323,
+      "pageCounts": [
+        250,
+        73,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/note-book-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/oppo/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/oversized-hoodies/products.json",
+      "key": "products",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/office-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/poco/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pop-culture/products.json",
+      "key": "products",
+      "count": 179,
+      "pageCounts": [
+        179,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/phone-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/only-stickers/products.json",
+      "key": "products",
+      "count": 4012,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        12,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pop-culture-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/premium-vinyl-stickers-india/products.json",
+      "key": "products",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/quirky/products.json",
+      "key": "products",
+      "count": 9,
+      "pageCounts": [
+        9,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/quotes/products.json",
+      "key": "products",
+      "count": 393,
+      "pageCounts": [
+        250,
+        143,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/premium-mobile-stickers/products.json",
+      "key": "products",
+      "count": 3189,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        189,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/random/products.json",
+      "key": "products",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/buy-vinyl-laptop-stickers-online/products.json",
+      "key": "products",
+      "count": 3077,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        77,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/realme/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/redmi/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/reflective-stickers/products.json",
+      "key": "products",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/religious-collection/products.json",
+      "key": "products",
+      "count": 94,
+      "pageCounts": [
+        94,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/quotes-quirky-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/samsung-galaxy/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sneakerhead-collection/products.json",
+      "key": "products",
+      "count": 12,
+      "pageCounts": [
+        12,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/socks/products.json",
+      "key": "products",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/spiritual-stickers/products.json",
+      "key": "products",
+      "count": 93,
+      "pageCounts": [
+        93,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/spooky/products.json",
+      "key": "products",
+      "count": 35,
+      "pageCounts": [
+        35,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/random-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sports/products.json",
+      "key": "products",
+      "count": 60,
+      "pageCounts": [
+        60,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/religious-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/spooky-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sticker-packs/products.json",
+      "key": "products",
+      "count": 48,
+      "pageCounts": [
+        48,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sports-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/t-shirt/products.json",
+      "key": "products",
+      "count": 12,
+      "pageCounts": [
+        12,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/stick-it-up-all-products/products.json",
+      "key": "products",
+      "count": 4168,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        168,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/buy-vinyl-trader-stickers-india/products.json",
+      "key": "products",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/trader01/products.json",
+      "key": "products",
+      "count": 661,
+      "pageCounts": [
+        250,
+        250,
+        161,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/students-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/travel/products.json",
+      "key": "products",
+      "count": 179,
+      "pageCounts": [
+        179,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/top-sellers/products.json",
+      "key": "products",
+      "count": 3173,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        173,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/travel01/products.json",
+      "key": "products",
+      "count": 678,
+      "pageCounts": [
+        250,
+        250,
+        178,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/traders-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/travel-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/trendy-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/trippy-stickers/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/trippy-stickers-1/products.json",
+      "key": "products",
+      "count": 3278,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/vivo/products.json",
+      "key": "products",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/vinyl-laptop-stickers/products.json",
+      "key": "products",
+      "count": 3189,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        189,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/buy-vinyl-stickers-for-bikes-and-cars-india/products.json",
+      "key": "products",
+      "count": 3077,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        77,
+        0
+      ],
+      "terminalEmptyPage": true
+    }
+  ],
+  "limitations": [
+    "Public storefront snapshot, not private inventory or unpublished products.",
+    "Prices and availability may change after capture.",
+    "Images remain original remote Shopify CDN URLs."
+  ]
+}

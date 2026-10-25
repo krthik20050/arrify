@@ -1,0 +1,14 @@
+node_modules
+dist
+artifacts
+stickitup-recreation.zip
+source-package
+tests
+scripts
+docs
+.git
+.env*
+.agents
+.codex
+reference/*.har
+public/ar-prepared

@@ -1,0 +1,2535 @@
+{
+  "source": "https://www.posterized.in",
+  "capturedAt": "2026-10-25T00:22:05.251Z",
+  "productCount": 1960,
+  "collectionCount": 273,
+  "imageCount": 2642,
+  "downloadedImageCount": 2642,
+  "failures": [],
+  "observations": [
+    {
+      "endpoint": "/products.json",
+      "count": 1960,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        210,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections.json",
+      "count": 273,
+      "pageCounts": [
+        250,
+        23,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/30-piece-poster-set/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/2-piece-poster-set/products.json",
+      "count": 14,
+      "pageCounts": [
+        14,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/4-piece-set/products.json",
+      "count": 18,
+      "pageCounts": [
+        18,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/3-piece-poster-set/products.json",
+      "count": 235,
+      "pageCounts": [
+        235,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/3-piece-sets/products.json",
+      "count": 235,
+      "pageCounts": [
+        235,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/8-panel-split-wall-set/products.json",
+      "count": 9,
+      "pageCounts": [
+        9,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/6-piece-set/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/9-piece-poster-set/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/a-milli/products.json",
+      "count": 18,
+      "pageCounts": [
+        18,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/across-the-spider-verse/products.json",
+      "count": 35,
+      "pageCounts": [
+        35,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/aesthetic/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/aesthetic-polaroid-prints/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/all-collection/products.json",
+      "count": 94,
+      "pageCounts": [
+        94,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/anime/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/anime-split-collections/products.json",
+      "count": 18,
+      "pageCounts": [
+        18,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/ariana-grande/products.json",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/aston-martin/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/assassins-creed/products.json",
+      "count": 23,
+      "pageCounts": [
+        23,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/avengers/products.json",
+      "count": 16,
+      "pageCounts": [
+        16,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/all-posters/products.json",
+      "count": 1600,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        100,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/all-posterized/products.json",
+      "count": 1955,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        205,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/babies/products.json",
+      "count": 10,
+      "pageCounts": [
+        10,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/batman/products.json",
+      "count": 51,
+      "pageCounts": [
+        51,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/beef/products.json",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/believer/products.json",
+      "count": 16,
+      "pageCounts": [
+        16,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bentley/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/best-selling-split-sticker-posters/products.json",
+      "count": 55,
+      "pageCounts": [
+        55,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/best-selling-split/products.json",
+      "count": 240,
+      "pageCounts": [
+        240,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/best-selling-set-poster/products.json",
+      "count": 237,
+      "pageCounts": [
+        237,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/big-stepper/products.json",
+      "count": 28,
+      "pageCounts": [
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bike/products.json",
+      "count": 16,
+      "pageCounts": [
+        16,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bike-split-collections/products.json",
+      "count": 13,
+      "pageCounts": [
+        13,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/billie-eilish-1/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/black-widow/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/blackpink/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bmw/products.json",
+      "count": 9,
+      "pageCounts": [
+        9,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bob-marley/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/bollywood/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/breaking-bad/products.json",
+      "count": 21,
+      "pageCounts": [
+        21,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/motivational/products.json",
+      "count": 12,
+      "pageCounts": [
+        12,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/call-of-duty/products.json",
+      "count": 14,
+      "pageCounts": [
+        14,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/captain-america/products.json",
+      "count": 14,
+      "pageCounts": [
+        14,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cars/products.json",
+      "count": 163,
+      "pageCounts": [
+        163,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/car-set-posters/products.json",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/car-split-collections/products.json",
+      "count": 60,
+      "pageCounts": [
+        60,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/carlos-sainz-jr/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cars-bikes/products.json",
+      "count": 41,
+      "pageCounts": [
+        41,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/chevrolet/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/celebrities/products.json",
+      "count": 24,
+      "pageCounts": [
+        24,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/christopher-nolan/products.json",
+      "count": 23,
+      "pageCounts": [
+        23,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/comic/products.json",
+      "count": 14,
+      "pageCounts": [
+        14,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/combo/products.json",
+      "count": 175,
+      "pageCounts": [
+        175,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/creative-wall-art-poster-kit/products.json",
+      "count": 9,
+      "pageCounts": [
+        9,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/concept-cars/products.json",
+      "count": 75,
+      "pageCounts": [
+        75,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cricket/products.json",
+      "count": 15,
+      "pageCounts": [
+        15,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cricket-split-collections/products.json",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cristiano-ronaldo/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cult-movies/products.json",
+      "count": 52,
+      "pageCounts": [
+        52,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/custom-only/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/customize/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/cyberpunk/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/dark/products.json",
+      "count": 27,
+      "pageCounts": [
+        27,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/david-fincher/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/dcu-collections/products.json",
+      "count": 125,
+      "pageCounts": [
+        125,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/dc-split-collections/products.json",
+      "count": 10,
+      "pageCounts": [
+        10,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/deadpool/products.json",
+      "count": 10,
+      "pageCounts": [
+        10,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/deadpool-and-wolverine/products.json",
+      "count": 23,
+      "pageCounts": [
+        23,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/devotional-poster/products.json",
+      "count": 30,
+      "pageCounts": [
+        30,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/devotional-poster-1/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/disney/products.json",
+      "count": 11,
+      "pageCounts": [
+        11,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/disney-movie/products.json",
+      "count": 25,
+      "pageCounts": [
+        25,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/doctor-strange/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/dodge-charger/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/doom/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/motivational-split-collections/products.json",
+      "count": 264,
+      "pageCounts": [
+        250,
+        14,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/dua-lipa/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/elden-ring/products.json",
+      "count": 8,
+      "pageCounts": [
+        8,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/f-l-a-s-h-special-edition/products.json",
+      "count": 12,
+      "pageCounts": [
+        12,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/f1-dislplay/products.json",
+      "count": 41,
+      "pageCounts": [
+        41,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/f1-race/products.json",
+      "count": 27,
+      "pageCounts": [
+        27,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/f1-split-collections/products.json",
+      "count": 14,
+      "pageCounts": [
+        14,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/ferrari/products.json",
+      "count": 15,
+      "pageCounts": [
+        15,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/fighter-jet-poster-collection/products.json",
+      "count": 8,
+      "pageCounts": [
+        8,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/flash/products.json",
+      "count": 12,
+      "pageCounts": [
+        12,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/first-pick/products.json",
+      "count": 16,
+      "pageCounts": [
+        16,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/football-set/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/foot-ball/products.json",
+      "count": 51,
+      "pageCounts": [
+        51,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/football-split-collections/products.json",
+      "count": 10,
+      "pageCounts": [
+        10,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/ford/products.json",
+      "count": 24,
+      "pageCounts": [
+        24,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/german-gp/products.json",
+      "count": 29,
+      "pageCounts": [
+        29,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/fortnite/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/freefire/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/friends/products.json",
+      "count": 10,
+      "pageCounts": [
+        10,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/game-of-thornes/products.json",
+      "count": 93,
+      "pageCounts": [
+        93,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/game-set/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/game-split-collections/products.json",
+      "count": 17,
+      "pageCounts": [
+        17,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/gamer-quote/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/games/products.json",
+      "count": 197,
+      "pageCounts": [
+        197,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/genius/products.json",
+      "count": 8,
+      "pageCounts": [
+        8,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/george-russell/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/ghost-of-tsushima/products.json",
+      "count": 12,
+      "pageCounts": [
+        12,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/glue-dot/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/freebie-collection/products.json",
+      "count": 1960,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        210,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/godzilla/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/god-of-war/products.json",
+      "count": 15,
+      "pageCounts": [
+        15,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/gta/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/guardians-of-the-galaxy/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/gym/products.json",
+      "count": 181,
+      "pageCounts": [
+        181,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/gym-set/products.json",
+      "count": 12,
+      "pageCounts": [
+        12,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/harley-quinn/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/hindu-god/products.json",
+      "count": 28,
+      "pageCounts": [
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/homepage-mystery/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/homepage-display-set-pieces/products.json",
+      "count": 250,
+      "pageCounts": [
+        250,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/hulk/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/honda/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/south-india/products.json",
+      "count": 34,
+      "pageCounts": [
+        34,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-devara/products.json",
+      "count": 16,
+      "pageCounts": [
+        16,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/ironman/products.json",
+      "count": 20,
+      "pageCounts": [
+        20,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-far-away/products.json",
+      "count": 33,
+      "pageCounts": [
+        33,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-gazel/products.json",
+      "count": 9,
+      "pageCounts": [
+        9,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-girly/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-hanumankind-2-kl/products.json",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-illuminati/products.json",
+      "count": 13,
+      "pageCounts": [
+        13,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-manasillayo/products.json",
+      "count": 26,
+      "pageCounts": [
+        26,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mayiliraye/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-mirror/products.json",
+      "count": 19,
+      "pageCounts": [
+        19,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/individual-posters/products.json",
+      "count": 1601,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        101,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-must-collection/products.json",
+      "count": 22,
+      "pageCounts": [
+        22,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-paiya-dei/products.json",
+      "count": 8,
+      "pageCounts": [
+        8,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-travis-scot/products.json",
+      "count": 29,
+      "pageCounts": [
+        29,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-redrum/products.json",
+      "count": 32,
+      "pageCounts": [
+        32,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/its-unboxing/products.json",
+      "count": 21,
+      "pageCounts": [
+        21,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/jasprit-bumrah/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/juice-wrld-1/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/joker/products.json",
+      "count": 14,
+      "pageCounts": [
+        14,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/justice-league/products.json",
+      "count": 21,
+      "pageCounts": [
+        21,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/k-drama/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/k-pop/products.json",
+      "count": 16,
+      "pageCounts": [
+        16,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/kane-williamson/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/katy-perry/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/koenigsegg/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/kollywood/products.json",
+      "count": 29,
+      "pageCounts": [
+        29,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/kylian-mbappe/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/lamborghini/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/lana-del-rey/products.json",
+      "count": 8,
+      "pageCounts": [
+        8,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/lewis-hamilton/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/liverpool-f-c/products.json",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/loki/products.json",
+      "count": 15,
+      "pageCounts": [
+        15,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/lionel-messi-1/products.json",
+      "count": 15,
+      "pageCounts": [
+        15,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/lucifer/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/manchester-united-f-c/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/martin-scorsese/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/marvel-split-collections/products.json",
+      "count": 14,
+      "pageCounts": [
+        14,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mazda/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/max-verstappen/products.json",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/marvel-collections/products.json",
+      "count": 198,
+      "pageCounts": [
+        198,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mclaren-automotive/products.json",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mercedes/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mohamed-salah/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mollywood/products.json",
+      "count": 8,
+      "pageCounts": [
+        8,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/money/products.json",
+      "count": 15,
+      "pageCounts": [
+        15,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/moon-knight/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/money-heist/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mortal-kombat/products.json",
+      "count": 11,
+      "pageCounts": [
+        11,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/motivation-set/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/movie-series/products.json",
+      "count": 118,
+      "pageCounts": [
+        118,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/movie-cards/products.json",
+      "count": 19,
+      "pageCounts": [
+        19,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/motivational-1/products.json",
+      "count": 142,
+      "pageCounts": [
+        142,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/movie-split-collections/products.json",
+      "count": 21,
+      "pageCounts": [
+        21,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/all-movies/products.json",
+      "count": 471,
+      "pageCounts": [
+        250,
+        221,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/ms-dhoni/products.json",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/ms-dhoni-7/products.json",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/hip-hop/products.json",
+      "count": 174,
+      "pageCounts": [
+        174,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/movies/products.json",
+      "count": 539,
+      "pageCounts": [
+        250,
+        250,
+        39,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/music-cards/products.json",
+      "count": 69,
+      "pageCounts": [
+        69,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/music-artist/products.json",
+      "count": 100,
+      "pageCounts": [
+        100,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/music-split-collections/products.json",
+      "count": 8,
+      "pageCounts": [
+        8,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mystery-gift/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/mythology/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/netflix/products.json",
+      "count": 48,
+      "pageCounts": [
+        48,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/nissan/products.json",
+      "count": 15,
+      "pageCounts": [
+        15,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/neymar/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pack-of-2/products.json",
+      "count": 14,
+      "pageCounts": [
+        14,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pack-of-30/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pack-of-4/products.json",
+      "count": 21,
+      "pageCounts": [
+        21,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pack-of-3/products.json",
+      "count": 239,
+      "pageCounts": [
+        239,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pack-of-5/products.json",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/new-collections/products.json",
+      "count": 1601,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        101,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pack-of-6/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pack-of-7/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/new-collections-1/products.json",
+      "count": 1950,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        200,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pagani/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pack-of-9/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/polaroid-product/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/peaky-blinders/products.json",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/post-malone/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/porsche/products.json",
+      "count": 23,
+      "pageCounts": [
+        23,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/best-wall-setup-packs/products.json",
+      "count": 54,
+      "pageCounts": [
+        54,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pop-culture/products.json",
+      "count": 433,
+      "pageCounts": [
+        250,
+        183,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/pubg/products.json",
+      "count": 13,
+      "pageCounts": [
+        13,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/posters-best-selling/products.json",
+      "count": 457,
+      "pageCounts": [
+        250,
+        207,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/quentin-tarantino/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/quotes/products.json",
+      "count": 34,
+      "pageCounts": [
+        34,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/real-madrid/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/retro-prints-only/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/rohit-sharma/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sachin-tendulkar/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/rolls-royce/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sebastian-vettel/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/posters-new-arrivals/products.json",
+      "count": 1601,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        101,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/selena-gomez/products.json",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sherlock-holmes/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/snoop-dogg/products.json",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/solid-cars/products.json",
+      "count": 52,
+      "pageCounts": [
+        52,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/spiderman-across-the-spider-verse-special-edition/products.json",
+      "count": 23,
+      "pageCounts": [
+        23,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/songs/products.json",
+      "count": 69,
+      "pageCounts": [
+        69,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/spiderman/products.json",
+      "count": 27,
+      "pageCounts": [
+        27,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/spiritual-collection/products.json",
+      "count": 13,
+      "pageCounts": [
+        13,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/spiritual-split-collections/products.json",
+      "count": 23,
+      "pageCounts": [
+        23,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sport-split-collections/products.json",
+      "count": 38,
+      "pageCounts": [
+        38,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sports-edition/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sports/products.json",
+      "count": 83,
+      "pageCounts": [
+        83,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/spy-x-family/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sticker-bulk-pack/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sticker-pack-of-05/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/squid-game/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sticker-pack-of-20/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/stickerized/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/stickers-pack-of-50/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/stickerized-combo-pack/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/stock-market/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/stranger-things/products.json",
+      "count": 13,
+      "pageCounts": [
+        13,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/shelby-cobra/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/sucide-squad/products.json",
+      "count": 10,
+      "pageCounts": [
+        10,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/superheros-split-collections/products.json",
+      "count": 24,
+      "pageCounts": [
+        24,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/superman/products.json",
+      "count": 37,
+      "pageCounts": [
+        37,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/super-heros/products.json",
+      "count": 208,
+      "pageCounts": [
+        208,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/super-heros-1/products.json",
+      "count": 301,
+      "pageCounts": [
+        250,
+        51,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/suryakumar-yadav/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/the-boys/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/thanos/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/taylor-swift/products.json",
+      "count": 49,
+      "pageCounts": [
+        49,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/the-office/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/the-sandman/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/the-walking-dead/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/witcher/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/tokyo-ghoul/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/tokyo-revengers/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/thor/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/top-selling-products/products.json",
+      "count": 154,
+      "pageCounts": [
+        154,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/toyota-supra/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/transformers/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/travis-scott-1/products.json",
+      "count": 6,
+      "pageCounts": [
+        6,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/ufc/products.json",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/tv-series-split-collections/products.json",
+      "count": 28,
+      "pageCounts": [
+        28,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/series/products.json",
+      "count": 195,
+      "pageCounts": [
+        195,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/uncharted/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/vector-car/products.json",
+      "count": 17,
+      "pageCounts": [
+        17,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/venom/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/vikings/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/vintage-car/products.json",
+      "count": 27,
+      "pageCounts": [
+        27,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/virat-kohli/products.json",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/weekend/products.json",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/wednesday/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/wiz-khalifa/products.json",
+      "count": 1,
+      "pageCounts": [
+        1,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/the-witcher/products.json",
+      "count": 7,
+      "pageCounts": [
+        7,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/wonder-women/products.json",
+      "count": 0,
+      "pageCounts": [
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/wrestling-split-collections/products.json",
+      "count": 4,
+      "pageCounts": [
+        4,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/wwe/products.json",
+      "count": 2,
+      "pageCounts": [
+        2,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/wolverine/products.json",
+      "count": 14,
+      "pageCounts": [
+        14,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/xxxtentacion-1/products.json",
+      "count": 3,
+      "pageCounts": [
+        3,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/x-man/products.json",
+      "count": 5,
+      "pageCounts": [
+        5,
+        0
+      ],
+      "terminalEmptyPage": true
+    },
+    {
+      "endpoint": "/collections/wall-posters/products.json",
+      "count": 1928,
+      "pageCounts": [
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        250,
+        178,
+        0
+      ],
+      "terminalEmptyPage": true
+    }
+  ],
+  "limitations": [
+    "Public storefront snapshot only.",
+    "Prices and stock may change.",
+    "Product photos may include room scenes or multiple panels; they are not necessarily print-ready artwork."
+  ]
+}

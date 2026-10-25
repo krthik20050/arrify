@@ -1,0 +1,8 @@
+{
+  "source": "https://registry.npmjs.org/@google/model-viewer/-/model-viewer-4.4.0.tgz",
+  "version": "4.4.0",
+  "integrity": "sha512-8z1SB5sPlzKoak5mdx/D31brBakPYm3Qi31EfAucHAUrtrHHCbabypkKvSwReYhUpPaxyJ46oT47uWE/hrs1Zw==",
+  "localPatches": [
+    "USDZ export supplies horizontal or vertical plane anchoring from ar-placement (2026-10-21); upstream module otherwise retained."
+  ]
+}

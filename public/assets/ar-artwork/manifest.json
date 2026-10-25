@@ -1,0 +1,66 @@
+{
+  "compass-sticker-1": {
+    "url": "/assets/ar-artwork/compass-sticker-1.png",
+    "width": 467,
+    "height": 496,
+    "source": {
+      "src": "https://cdn.shopify.com/s/files/1/0561/0215/8500/products/compass-v2-sticker-9312189.jpg?v=1771244351",
+      "index": 0,
+      "reason": "First still catalog image; conservative detached-mark cleanup"
+    },
+    "cleanup": {
+      "removedPixels": 3515,
+      "reason": "Removed small, detached marks outside artwork envelope."
+    },
+    "version": "clean-v2",
+    "review": "visually-reviewed-after-processing"
+  },
+  "compass-sticker": {
+    "url": "/assets/ar-artwork/compass-sticker.png",
+    "width": 581,
+    "height": 580,
+    "source": {
+      "src": "https://cdn.shopify.com/s/files/1/0561/0215/8500/products/compass-sticker-5099364.jpg?v=1771245850",
+      "index": 0,
+      "reason": "First still catalog image; conservative detached-mark cleanup"
+    },
+    "cleanup": {
+      "removedPixels": 0,
+      "reason": "No safely separated marks found."
+    },
+    "version": "clean-v2",
+    "review": "visually-reviewed-after-processing"
+  },
+  "wasted-sticker": {
+    "url": "/assets/ar-artwork/wasted-sticker.png",
+    "width": 637,
+    "height": 165,
+    "source": {
+      "src": "https://cdn.shopify.com/s/files/1/0561/0215/8500/products/wasted-sticker-7271052.jpg?v=1771245798",
+      "index": 0,
+      "reason": "First still catalog image; conservative detached-mark cleanup"
+    },
+    "cleanup": {
+      "removedPixels": 0,
+      "reason": "No safely separated marks found."
+    },
+    "version": "clean-v2",
+    "review": "visually-reviewed-after-processing"
+  },
+  "limited-edition-sticker-1": {
+    "url": "/assets/ar-artwork/limited-edition-sticker-1.png",
+    "width": 556,
+    "height": 365,
+    "source": {
+      "src": "https://cdn.shopify.com/s/files/1/0561/0215/8500/products/limited-edition-v2-sticker-3214334.jpg?v=1771244420",
+      "index": 1,
+      "reason": "Visually reviewed alternate without promotional badge"
+    },
+    "cleanup": {
+      "removedPixels": 0,
+      "reason": "No safely separated marks found."
+    },
+    "version": "clean-v2",
+    "review": "visually-reviewed-after-processing"
+  }
+}

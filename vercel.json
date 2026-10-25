@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.mjs",
+      "use": "@vercel/node",
+      "config": {
+        "excludeFiles": [
+          "public/ar-prepared/**"
+        ],
+        "includeFiles": [
+          "data/**",
+          "reference/routes.json",
+          "reference/pages/**",
+          "homepage.html",
+          "public/*.js",
+          "public/*.css",
+          "public/*.svg",
+          "public/assets/**",
+          "public/vendor/**"
+        ]
+      }
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/ar-prepared/(.*)",
+      "dest": "/api/index.mjs"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.mjs"
+    }
+  ]
+}

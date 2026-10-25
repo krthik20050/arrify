@@ -1,0 +1,342 @@
+[
+  {
+    "type": "genre",
+    "value": "Gaming",
+    "count": 79,
+    "pages": [
+      79
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Cars, Bikes & Racing",
+    "count": 208,
+    "pages": [
+      80,
+      80,
+      48
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Spiritual & Faith",
+    "count": 102,
+    "pages": [
+      80,
+      22
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Nature & Travel",
+    "count": 152,
+    "pages": [
+      80,
+      72
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Anime & Manga",
+    "count": 434,
+    "pages": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      34
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Animals & Pets",
+    "count": 75,
+    "pages": [
+      75
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Music",
+    "count": 37,
+    "pages": [
+      37
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Dark & Edgy",
+    "count": 136,
+    "pages": [
+      80,
+      56
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Food & Drinks",
+    "count": 77,
+    "pages": [
+      77
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Space & Sci-Fi",
+    "count": 77,
+    "pages": [
+      77
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Motivational & Hustle",
+    "count": 519,
+    "pages": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      39
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Sports & Fitness",
+    "count": 135,
+    "pages": [
+      80,
+      55
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Tech & Code",
+    "count": 111,
+    "pages": [
+      80,
+      31
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Love & Emotions",
+    "count": 76,
+    "pages": [
+      76
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Japanese & JDM",
+    "count": 31,
+    "pages": [
+      31
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Warning & Signs",
+    "count": 43,
+    "pages": [
+      43
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Indian & Desi",
+    "count": 152,
+    "pages": [
+      80,
+      72
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Abstract & Artistic",
+    "count": 55,
+    "pages": [
+      55
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Quotes & Typography",
+    "count": 71,
+    "pages": [
+      71
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Pop Culture",
+    "count": 280,
+    "pages": [
+      80,
+      80,
+      80,
+      40
+    ],
+    "complete": true
+  },
+  {
+    "type": "personality",
+    "value": "Minimal",
+    "count": 190,
+    "pages": [
+      80,
+      80,
+      30
+    ],
+    "complete": true
+  },
+  {
+    "type": "genre",
+    "value": "Humor & Attitude",
+    "count": 961,
+    "pages": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      1
+    ],
+    "complete": true
+  },
+  {
+    "type": "personality",
+    "value": "Neon & Glow",
+    "count": 323,
+    "pages": [
+      80,
+      80,
+      80,
+      80,
+      3
+    ],
+    "complete": true
+  },
+  {
+    "type": "personality",
+    "value": "Cute & Kawaii",
+    "count": 320,
+    "pages": [
+      80,
+      80,
+      80,
+      80,
+      0
+    ],
+    "complete": true
+  },
+  {
+    "type": "personality",
+    "value": "Line Art",
+    "count": 162,
+    "pages": [
+      80,
+      80,
+      2
+    ],
+    "complete": true
+  },
+  {
+    "type": "personality",
+    "value": "Retro & Vintage",
+    "count": 148,
+    "pages": [
+      80,
+      68
+    ],
+    "complete": true
+  },
+  {
+    "type": "personality",
+    "value": "Bold & Loud",
+    "count": 1311,
+    "pages": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      31
+    ],
+    "complete": true
+  },
+  {
+    "type": "personality",
+    "value": "Illustrated",
+    "count": 1218,
+    "pages": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      18
+    ],
+    "complete": true
+  },
+  {
+    "type": "personality",
+    "value": "Dark",
+    "count": 139,
+    "pages": [
+      80,
+      59
+    ],
+    "complete": true
+  }
+]

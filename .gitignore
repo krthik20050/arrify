@@ -1,24 +1,14 @@
-# Local secrets; sanitized example files may be committed.
-.env
-.env.*
-!.env.example
-!.env.*.example
-*.pem
-*.key
-
-# Common dependencies, build output, caches, and local tooling.
 node_modules/
-.next/
 dist/
-build/
-coverage/
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.DS_Store
-Thumbs.db
+artifacts/
+.vercel/
+.env*
+!.env.example
+public/ar-prepared/
+stickitup-recreation.zip
+source-package/
+.agents/
+.codex/
+reference/*.har
 *.log
-
-# Add entries appropriate to your chosen language or framework.
+.DS_Store
