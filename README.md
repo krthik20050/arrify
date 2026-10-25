@@ -1,8 +1,71 @@
-# STICK IT UP storefront recreation
+# Arrify
 
-An editable local recreation of [stickitup.xyz](https://www.stickitup.xyz/), captured on **19 October 2026**. The public catalog is stored locally; the application does not query the production Shopify store for shopping actions.
+<div align="center">
+  <img src="docs/assets/arrify-readme-hero.svg" alt="Arrify — discover stickers and preview them in your space" width="100%" />
+  <br />
+  <a href="https://stickitup-ar-demo.vercel.app"><img src="https://img.shields.io/badge/OPEN%20LIVE%20DEMO-ARRIFY-20251d?style=for-the-badge&labelColor=eaf45d" alt="Open Arrify live demo" /></a>
+  <a href="https://www.stickitup.xyz/"><img src="https://img.shields.io/badge/CATALOG-STICK%20IT%20UP-20251d?style=for-the-badge&labelColor=f4a48e" alt="Explore the original STICK IT UP store" /></a>
+  <br /><br />
+  <img src="https://img.shields.io/badge/Node.js-22%2B-43853d?logo=node.js&logoColor=white" alt="Node.js 22 or newer" />
+  <img src="https://img.shields.io/badge/AR-3D%20%7C%20Quick%20Look%20%7C%20Scene%20Viewer-6b55d6" alt="3D and mobile AR" />
+  <img src="https://img.shields.io/badge/Assets-Cloudflare%20R2-f38020?logo=cloudflare&logoColor=white" alt="Cloudflare R2" />
+</div>
 
-## Run
+<p align="center"><strong>Discover a sticker. See it in 3D. Try it in your space.</strong></p>
+
+Arrify is an independently built, AI-assisted sticker storefront and augmented reality (AR) demo. It brings together a captured STICK IT UP catalog, product browsing, a persistent demo cart, 3D previews, native phone AR handoff, a sticker layout studio, and a poster studio.
+
+<p align="center"><a href="#what-you-can-do">Explore features</a> · <a href="#run-locally">Run locally</a> · <a href="#technology-stack">Tech stack</a> · <a href="#future-scope">Roadmap</a> · <a href="#ai-tools-and-review-agents">AI usage</a></p>
+
+**Live demo:** [stickitup-ar-demo.vercel.app](https://stickitup-ar-demo.vercel.app) · **Original store:** [stickitup.xyz](https://www.stickitup.xyz/)
+
+This repository is a review/demo application, not the store's production commerce backend. The live demo uses captured product data; demo checkout does not take payment or create a real order.
+
+## What you can do
+
+- Browse a captured catalog of **4,475 stickers and apparel products**, **5,191 variants**, **157 collections**, and **26,865 image records**. The snapshot includes sold-out products and preserves their recorded availability.
+- Search, filter, sort, paginate, compare product options, and view product details using locally served catalog pages.
+- Build a cart with server-quoted captured prices and browser persistence. Use the demo checkout to exercise form validation and a clearly labeled sample discount.
+- Preview supported stickers in interactive 3D, prepare native AR assets, and open a phone handoff using a QR code.
+- Arrange multiple cart stickers together, edit their position/size/rotation, and prepare a combined scene for a phone.
+- Explore a captured Posterized catalog, preview poster product photos on a wall, and arrange a multi-photo wall layout.
+- Browse the captured storefront content, including the quiz, sticker discovery, editorial pages, FAQs, and policy pages.
+
+## How the project works
+
+```text
+Captured public catalog and page content
+                │
+                ├── data/ and reference/ ──> Node page renderer ──> browser storefront
+                │                                  │
+                │                                  └── /api ──> cart quotes, AR prep and handoff
+                │                                                    │
+                └── prepared sticker assets ──> Cloudflare R2 <─────┘
+                                                     │
+                                      GLB / USDZ / QR phone handoff
+```
+
+The application reuses one Node request handler locally and in the Vercel function. The server renders public product and collection pages from the saved catalog. Browser JavaScript handles interactions, while the server validates variants and quantities and calculates cart quotes from captured prices. Prebuilt AR catalog files are served from Cloudflare R2; temporary edited scenes and phone handoff data use the configured server-side R2 storage path. Local development can use the available fallback storage when R2 settings are absent.
+
+The catalog snapshot is dated **19 October 2026**. Product prices and availability can change on the real store. Product images mostly load from the original Shopify image CDN, so those images need internet access. The repository is not a live Shopify Storefront API integration.
+
+## Technology stack
+
+| Area | Technology |
+| --- | --- |
+| Runtime and server | Node.js 22+, native ES modules, Node HTTP request handler |
+| UI | Server-rendered HTML, browser JavaScript modules, CSS; no React/Vue application framework |
+| Catalog capture and HTML handling | Cheerio, local JSON snapshots, HTML sanitization and rewriting |
+| Image and AR preparation | Sharp, generated PNG textures, GLB models, USDZ models and QR codes |
+| 3D and browser AR | Google `<model-viewer>` 4.4.0 (vendored, with provenance recorded), GLB/glTF |
+| Native phone handoff | Apple Quick Look USDZ links, Android Scene Viewer intents, QR scene links |
+| Storage | Cloudflare R2 through the AWS S3 client; Vercel Blob and local fallback paths remain in the code |
+| Hosting | Vercel Node function and static assets; local Node server for development |
+| Quality checks | Node's built-in test runner, browser checks documented in `docs/`, GitHub Actions |
+
+Notable direct dependencies are `@aws-sdk/client-s3`, `@vercel/blob`, `cheerio`, `fflate`, `qrcode`, and `sharp`. There is no frontend bundler or transpilation step in the current app.
+
+## Run locally
 
 Requires Node.js 22 or newer.
 
@@ -11,82 +74,124 @@ npm ci
 npm run dev
 ```
 
-Open the printed localhost URL (port 3000 by default). To select another port in PowerShell:
+Open the localhost address printed by the server (port 3000 by default). To choose another port in PowerShell:
 
 ```powershell
 $env:PORT = '3001'
 node server.mjs
 ```
 
-If a global npm shim is broken on Windows, the installed Node npm CLI can be invoked directly:
+R2 is optional for basic local development. For durable prepared assets and temporary AR handoffs, configure `R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, and optionally `R2_BUCKET` as server-side environment variables. The asset base URL is configured separately with `AR_ASSET_BASE_URL`. Never put these credentials in browser code or commit them. See [Cloudflare R2 setup](docs/cloudflare-r2-setup.md). The R2 development URL is rate limited; the project notes recommend a custom asset domain for public production traffic. No hard billing cap is configured.
 
-```powershell
-& 'C:\Program Files\nodejs\node.exe' 'C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js' ci
-```
+## Useful commands
 
-## Implemented
-
-- Original captured homepage, navigation, brand styles, promotional banners, category grid, best seller tabs, testimonials, FAQ, and footer.
-- **4,475 products**, **5,191 variants**, **157 collections**, and **26,865 source image records**. Includes **563 sold-out products**.
-- All captured products have their own local product route with original title, description, prices, availability, options and image gallery.
-- Collection browsing, pagination, live search, price/type/availability filtering and sorting.
-- Original 3-question sticker quiz, 21 genre filters and 8 personality filters, using captured live filter membership.
-- Quick view, option selection, quantity controls, image enlargement and product sharing.
-- Cart drawer and cart page with browser persistence, quantity changes, removal, and server-calculated captured prices.
-- Demo checkout with form validation, the explicitly demo `DEMO10` discount, confirmation, and locally tracked demo orders.
-- Demo account, newsletter/support form feedback, original story/custom-sticker/review/FAQ/policy pages, blog pages and linked articles, and T-shirt size chart.
-- Twenty original social-feed thumbnails saved locally, with image previews and the official Instagram link.
-
-## Evidence and boundaries
-
-The public product and collection feeds were paginated through a terminal empty page. `data/manifest.json` records the source, timestamps, counts and per-endpoint page totals. `reference/filter-report.json` records all 29 genre/style captures. `reference/routes.json` maps captured content routes to their retained original HTML.
-
-REA statically inspected the 38 captured theme JavaScript files (222,021 bytes, no parse failures). Retained parent evidence: `ev_374da2644ada335b16a6e4e6b466d16810cda7bb22f8af1f19090f104874b9ea`. Semantic coverage is **partial**; static inspection does not prove runtime behavior. Browser inspection supplied the visual and interaction evidence.
-
-The homepage and captured content retain the original markup/styles. Product, collection and cart templates are local implementations matching the observed brand and shopping structure; they are **not a pixel-perfect copy of every original template or third-party widget**.
-
-The source catalog has **55 products without images**; these show an explicit image-unavailable fallback. Most product images retain the original Shopify CDN URLs, so an internet connection is required for them. Prices and availability are the captured snapshot and can change on the actual store.
-
-Real customer authentication, payments, shipments, customer data, promotional discount rules, live reviews, newsletter subscriptions and support submissions require owner-provided backend integrations. Demo checkout creates no actual purchase. It stores item summaries locally and does not save the entered contact/address details. Original external social, email, phone and tracking links remain external where appropriate.
-
-The review recreation is marked `noindex`; production analytics, payment scripts, and third-party executables are removed. Only reviewed local application scripts execute.
-
-## Edit the site
-
-| File/folder | Purpose |
+| Command | Purpose |
 | --- | --- |
-| `lib/render.mjs` | Product/collection/local page templates and homepage reconciliation |
-| `lib/catalog.mjs` | Search/filter/sort rules and server-side cart quoting |
-| `lib/html.mjs` | Original HTML sanitation and asset/link rewriting |
-| `public/app.js` | Navigation overlays, cart, galleries and demo checkout |
-| `public/app.css` | Local template and responsive styles |
-| `public/quiz.js`, `public/vibes.js` | Retained original quiz and category-grid behavior |
-| `public/assets/` | Captured original styles, banners and social thumbnails |
-| `data/` | Local product catalog, collection/filter membership and provenance |
-| `reference/pages/` | Original public HTML retained for faithful content rendering |
-| `reference/theme/` | Theme scripts retained for analysis, never served/executed |
+| `npm run dev` | Start the local storefront and API |
+| `npm test` | Run all Node tests |
+| `npm run build` | Run the build checks and create the portable `dist/` app |
+| `npm run sync` | Refresh the captured sticker catalog |
+| `npm run sync:posters` | Resume the public poster catalog capture |
+| `npm run audit:posters` | Audit poster images and generate browse thumbnails |
+| `npm run build:poster-ar` | Generate poster preview GLBs and normalized textures |
 
-## Validate and package
+Catalog sync commands update the local source snapshot. Review the resulting data before publishing; source prices and availability become stale over time. For a production-shaped local install, build first, then run `npm ci --omit=dev` and `npm start` from `dist/`.
 
-```sh
-npm test
-npm run build
-```
+## Repository map
 
-Tests verify catalog completeness, collection references, valid prices, sold-out handling, cart price authority, rejection of bad quantities/variants, pagination, local script boundaries, page rendering and HTTP integration. The build produces a portable `dist/` Node app. Run `npm ci --omit=dev` and `npm start` inside `dist/` on a Node host. GitHub Actions runs these checks and uploads the built folder when this source is placed in a repository.
+| Path | Responsibility |
+| --- | --- |
+| `server.mjs`, `api/index.mjs` | Shared local and Vercel HTTP entry points |
+| `lib/` | Rendering, catalog logic, HTML processing, AR models, storage and handoff |
+| `public/` | Browser interactions, styles, assets, studios and vendored model viewer |
+| `data/` | Captured product, collection, poster and AR catalog data plus provenance |
+| `reference/` | Retained source pages, route map and analysis records |
+| `scripts/` | Capture/sync, asset preparation, auditing, packaging and build tools |
+| `tests/` | Node test suite |
+| `docs/` | Product direction, design, research, release notes and verification evidence |
+| `.github/workflows/ci.yml` | Install, test, build and upload the portable app artifact on push and pull request |
 
-`scripts/sync-catalog.mjs`, `scripts/capture-site.mjs`, `scripts/capture-content.mjs`, and `scripts/sync-filters.mjs` refresh public source snapshots. These developer scripts use `curl.exe` on Windows. Run them deliberately: they replace the captured snapshot. Rebuild and restart after refreshing.
+## Current status and project boundaries
 
-## Verification scope
+The latest project readiness record, dated **25 October 2026**, documents a deployed Vercel demo, a verified 12,435-object AR catalog on R2, public asset and CORS checks, model/scene/QR handoff checks, and browser verification of the sticker and cart studios. The latest AR controls release records **53 passing tests** and a complete portable build at that point. These are recorded results from the cited release work, not a fresh run made while editing this README.
 
-Automated tests and browser checks are recorded in `docs/verification.md`. Engineering assumptions are mobile/4G and desktop use, server-rendered public catalog pages, and WCAG AA as a target. Targets for a future production optimization pass are LCP ≤2.5 s, INP ≤200 ms, CLS ≤0.1, local application JavaScript ≤80 KB gzip, and Lighthouse accessibility ≥90/performance ≥85. These performance/accessibility scores have **not** been measured or claimed here. Original third-party CSS and CDN images affect results. Physical-device, screen-reader and real provider validation remain separate work.
+The demo is useful for reviewing shopping and placement workflows, but it is not yet production commerce or a guarantee of precise physical placement:
 
-## Poster department
+- Prices, stock, and product details are from a dated capture.
+- Checkout, accounts, fulfillment, discount rules, newsletter signups, reviews and support submissions are demo/local behavior or need owner-authorized service integrations.
+- Generated AR artwork is a preview derived from product photography, not approved print artwork. Some source images include shadows, promotional elements or scenes.
+- AR sizing is an estimate unless verified per-product dimensions are supplied. Browser preview and desktop QR checks do not prove physical tracking.
+- Physical iPhone and Android placement, especially upright walls and laptop lids, still needs current-device validation.
+- Temporary scene API links expire after 30 minutes, but stored scene objects still need retention cleanup.
+- The shared public R2 bucket is for public sticker assets and scene previews only; it is not suitable for private media.
+- The project is marked `noindex`; it is not intended to replace or index the original store.
 
-The Posters button opens `/pages/poster-studio`: browse the captured Posterized.in catalog by search or collection, inspect product photographs and size options, and add a chosen photograph to a wall layout. Poster purchases open the original store; they do not enter the sticker demo checkout. The wall editor uses product photography and estimated visual sizing, not print files or tracked wall AR.
+See [MVP readiness](docs/mvp-readiness-2026-10-25.md), [AR controls release](docs/ar-controls-release-2026-10-25.md), [verification notes](docs/verification.md), and [poster studio verification](docs/poster-studio-verification.md) for the dated evidence and its limits.
 
-- Resume the public capture: `npm run sync:posters`; start a fresh snapshot: `npm run sync:posters -- --fresh`
-- Verify original images and generate lightweight browsing thumbnails: `npm run audit:posters`
-- Run tests and create the portable deployment: `npm run build`
+## How we build and review
 
-Source snapshots live in `data/posters/`; local originals and thumbnails live in `public/poster-assets/`. Captured prices and availability can become outdated. Keep the source attribution and product-photo preview wording when publishing.
+Work follows an evidence-first loop:
+
+1. Capture or inspect the public source and keep the snapshot provenance in the repository.
+2. Make a focused change while preserving the existing catalog, cart, and route contracts.
+3. Add regression coverage for behavior that can be checked locally.
+4. Run the Node test suite and portable build; inspect relevant flows in a browser.
+5. For deployed changes, verify the public HTTPS routes and assets separately from local results.
+6. Record evidence and open gaps in the relevant release or verification document.
+
+GitHub Actions runs `npm ci`, `npm test`, and `npm run build` for pushes and pull requests, then uploads `dist/` as an artifact. This workflow verifies and packages the app; it does not itself deploy to Vercel.
+
+### AI tools and review agents
+
+This repository has been developed with AI-assisted coding, investigation and review. The release notes identify the following tools and review roles:
+
+- **Codex** — the named coding assistant in the project’s event log. The current local README and repository work were also prepared with Codex.
+- **REA (Reverse Engineer Anything)** — static inspection of retained storefront theme JavaScript and evidence handling; static inspection was explicitly treated as partial and not proof of runtime behavior.
+- **AR engineering review agent** — reviewed model generation, native handoff and AR implementation.
+- **Artwork review agent** — reviewed representative cleaned artwork and documented where automated cleanup is unreliable.
+- **Cart UX review agent** — reviewed cart and multi-sticker arrangement behavior.
+- **Independent software review agent(s)** — reviewed storage and concurrency changes; the 25 October readiness note records a race found and fixed.
+- **Agent Reach research tooling** — used for public-source research; its recorded access limitations are described in `docs/ar-expert-review.md`.
+
+The [AI usage log](https://github.com/krthik20050/arrify/blob/main/AI_USAGE.md) is the place to record hackathon work. At the time of this README update, its participant task row is still a TODO; it records Codex preparing the project documentation template. The source release notes separately identify three specialist review agents (AR engineering, artwork, and cart UX) and an independent software review, but omit their model names and identities. Those documented roles are credited above; the repository does not contain enough evidence to name every historical agent or model. Agent review is software-agent output, not external human certification.
+
+## Future scope
+
+Priorities below are derived from the open boundaries in the current project notes. They are direction, not completed features.
+
+### P0 — validate the core phone experience
+
+- Run a repeatable acceptance pass on current iPhone Safari and ARCore Android devices: product launch, scale gestures, surface changes, orientation, texture alignment, QR handoff, and multi-sticker cart layout.
+- Record device, OS/browser, lighting and surface conditions; keep native device results separate from desktop/browser preview evidence.
+- Confirm a custom R2 asset domain and production CORS behavior before relying on the rate-limited development domain for broader traffic.
+
+### P1 — improve asset quality and storage operations
+
+- Obtain owner-approved transparent print artwork, die-cut masks and measured dimensions by SKU; keep automated image cleanup as a labeled preview fallback.
+- Add retention cleanup for expired temporary GLB/USDZ/scene/QR objects and document storage monitoring and recovery.
+- Replace estimated AR dimensions with verified product dimensions when the source data is available.
+- Review accessibility with screen readers and measure the README's stated performance budgets on representative mobile connections.
+
+### P2 — connect real commerce services
+
+- Integrate owner-approved product/stock updates, customer authentication, checkout/payment, order management, fulfillment, discounts, reviews, newsletter and support services.
+- Define privacy, retention, consent and operational ownership before collecting customer or camera-related data. The current studio does not upload camera frames.
+- Explore guided surface recognition and more capable in-AR multi-sticker editing only after device tests establish the value and platform limits.
+
+## Key documentation
+
+- [Product direction](PRODUCT.md) and [design system](DESIGN.md)
+- [MVP readiness and deployed evidence](docs/mvp-readiness-2026-10-25.md)
+- [Verification record](docs/verification.md)
+- [AR prototype and known platform limits](docs/ar-prototype.md)
+- [AR placement and hosting](docs/ar-placement-and-hosting.md)
+- [Cloudflare R2 setup and operations](docs/cloudflare-r2-setup.md)
+- [AR artwork audit](docs/ar-artwork-audit.md)
+- [Cart arrangement flow](docs/cart-arrangement-flow.md)
+- [Sticker studio](docs/sticker-studio.md)
+- [Poster studio plan and verification](docs/poster-studio-plan.md), [poster studio verification](docs/poster-studio-verification.md)
+
+## Acknowledgements and source use
+
+The product catalog, names, descriptions, prices, brand identity and source photographs belong to their respective rights holders. This project uses captured public pages and catalog data for a review/demo recreation, preserves source attribution in its data and docs, and links shoppers back to the original store for poster purchases. Confirm permission and asset rights before redistributing captures or using this repository as a commercial storefront.
+
