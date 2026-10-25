@@ -27,14 +27,14 @@ async function addItem(id,quantity=1){
  const original=structuredClone(cart);const found=cart.find(line=>String(line.id)===String(id));
  if(found)found.quantity=Math.min(99,found.quantity+quantity);else cart.push({id:String(id),quantity});
  if(!await refreshCart()){cart=original;return;}
- if(dialog.open)dialog.close();
+ if(dialog.open){dialog.addEventListener('close',()=>renderCart(true),{once:true});dialog.close();}else renderCart(true);
  toast('Added to cart');
 }
 function cartLine(item,summary=false){return `<div class="local-cart-line"><a href="/products/${esc(item.handle)}"><img src="${esc(item.image)}" alt="${esc(item.title)}"></a><div><h3><a href="/products/${esc(item.handle)}">${esc(item.title)}</a></h3>${item.variant!=='Default Title'?`<p>${esc(item.variant)}</p>`:''}<p>${money(item.price)}${summary?` × ${item.quantity}`:''}</p>${summary?'':`<div class="local-quantity"><button data-cart-delta="-1" data-id="${item.id}" aria-label="Decrease quantity of ${esc(item.title)}">−</button><input type="number" min="1" max="99" value="${item.quantity}" data-cart-input="${item.id}" aria-label="Quantity for ${esc(item.title)}"><button data-cart-delta="1" data-id="${item.id}" aria-label="Increase quantity of ${esc(item.title)}">+</button></div><button class="local-remove" data-remove="${item.id}">Remove</button>`}</div><strong>${money(item.price*item.quantity)}</strong></div>`;}
 function cartMarkup(){
  if(!quote.items.length)return '<div class="local-empty"><h2>Your cart is empty</h2><p>Find a little something that feels like you.</p><a class="local-primary" href="/collections/all">Continue shopping</a></div>';
  const hasStickers=quote.items.some(item=>/^(Stickers|Bumper Sticker|Holographic stickers|Glitter Stickers|Infinity Stickers)$/.test(item.product_type||''));
- return `${quote.items.map(i=>cartLine(i)).join('')}${hasStickers?'<section class="cart-sticker-workspace" aria-label="Arrange your cart stickers"><h2>Try them on your laptop</h2><p>Drag any sticker from the tray onto the space below.</p><div id="sticker-studio"></div></section>':''}<div class="local-cart-total"><span>Subtotal</span><span>${money(quote.total)}</span></div><p class="local-review-note">Shipping calculated at checkout.</p><div class="local-cart-actions"><a href="/collections/all">Continue shopping</a><a class="local-primary" href="/checkout">Check out</a></div>`;
+ return `${quote.items.map(i=>cartLine(i)).join('')}<div class="local-cart-total"><span>Subtotal</span><span>${money(quote.total)}</span></div><p class="local-review-note">Shipping calculated at checkout.</p><div class="local-cart-actions">${hasStickers?'<a class="local-primary local-cart-preview" href="/pages/sticker-studio">Preview stickers</a>':''}<a class="local-primary local-cart-buy" href="/checkout">Buy now →</a></div>`;
 }
 async function mountCartStudio(){
  const mount=(dialog.open?dialog:document).querySelector('#sticker-studio');

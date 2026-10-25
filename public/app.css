@@ -10,3 +10,13 @@ html{scroll-behavior:smooth}body{overflow-x:hidden}button,a,input,select,textare
 .product-3d-large{display:inline-flex;align-items:center;gap:9px;min-height:44px;margin-top:12px;padding:10px 16px;border:1px solid #dedfd4;border-radius:6px;background:#fefefa;color:#1c1e18;text-decoration:none;font-size:14px;font-weight:600}
 .local-card-media .product-3d .ar-cube-image,.product-3d-large .ar-cube-image{width:20px;height:20px;object-fit:contain;flex:none}
 .ar-editor-link{display:inline-flex;align-items:center;min-height:44px;margin-left:10px;text-decoration:underline;text-underline-offset:3px}
+
+
+/* Keep the cart decision simple: preview stickers or continue to checkout. */
+.local-cart-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;justify-content:stretch;margin:20px 0 4px}
+.local-cart-actions a{min-width:0;width:100%;min-height:54px;padding:12px 14px;border:2px solid #1c1e18;border-radius:9px;white-space:nowrap;transition:transform .16s ease,background-color .16s ease,color .16s ease}
+.local-cart-actions a:hover{transform:translateY(-1px)}
+.local-cart-actions .local-cart-preview{background:#eeef52;color:#1c1e18;border-color:#d5d633}
+.local-cart-actions .local-cart-buy{background:#1c1e18;color:#f6f681}
+@media(max-width:360px){.local-cart-actions{grid-template-columns:1fr}.local-cart-actions a{min-height:50px}}
+@media(prefers-reduced-motion:reduce){.local-cart-actions a{transition:none}}
